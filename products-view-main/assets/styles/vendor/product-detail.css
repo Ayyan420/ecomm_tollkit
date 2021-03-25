@@ -1,0 +1,272 @@
+*{
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+}
+html,body{
+    overflow-x: hidden !important;
+}
+/*** SIDE BAR ****/
+.icon {
+   background:#8c9aab  !important;
+/*padding:9px 13px 8px 13px !;*/
+width: 30px !important;
+height: 30px !important;
+border-radius: 50% !important;
+color: #fff !important;
+font-size: 17px !important;
+margin-right: 15px !important;
+}
+.icon i img{
+height: 11px !important;
+}
+.row1{
+    margin-top: 90px !important;
+}
+.col-sm-3 a{
+    display: flex !important;
+    justify-content: flex-start !important;
+    align-items: center !important;
+    text-align: center !important;
+    font-size: 20px !important;
+    color: #5D625F !important;
+    font-weight: 400 !important;
+    padding-bottom:30px !important;
+    text-decoration: none !important;
+}
+.first{
+    padding: 0 !important;
+}
+h6{
+    color: grey !important;
+    font-size: 14px !important;
+    text-align: left !important;
+    padding: 15px 0 20px 0 !important;
+}
+
+.img1 img{
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    object-position: center !important;
+    border-radius: 3px !important;
+    padding-bottom: 8px !important;
+}
+.img2{
+    width: 50% !important;
+}
+ .btn-secondary{
+margin-top: 20px !important;
+}
+.img2 img{
+    border-radius: 3px !important;
+     width: 50% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    object-position: center !important;
+}
+
+.center_images{
+    background: #fff !important;
+    padding: 8px !important;
+}
+
+.row2{
+    width: 100% !important;
+}
+/**** RIGHT BLOCK ****/
+
+.items{
+    background: #fff !important;
+}
+
+.items_main{
+    display: flex !important;
+    justify-content: flex-start !important;
+    align-items: center !important;
+}
+.left_sidebar {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    background:#8c9aab !important;
+width: 44px !important;
+height: 44px !important;
+border-radius: 50% !important;
+}
+.left_sidebar i img{
+    width: 19px !important;
+    height: 50% !important;
+}
+
+.right{
+    display: flex !important;
+    justify-content: flex-start !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    padding-left: 18px !important;
+}
+.sub_item1 {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+}
+.sub_item1 .sub_item1_left small{
+font-size: 17px !important;
+color: #0f8bfe !important;
+line-height:35px !important;
+font-weight: 400 !important;
+}
+.sub_item1_right img{
+ width: 16px !important;
+ height: 16px !important;
+}
+
+.sub_item2{
+    color: #5D625F !important;
+    font-weight: 400 !important;
+}
+
+
+
+/*** TABS ****/
+.row3 {
+    background: #fff !important;
+margin-top: 30px !important;
+}
+.nav-item {
+
+    background: rgba(0,0,0,.1) !important;
+    -webkit-box-shadow: 3px -9px 30px -23px rgba(0,0,0,0.75) !important;
+-moz-box-shadow: 3px -9px 30px -23px rgba(0,0,0,0.75) !important;
+box-shadow: 3px -9px 30px -23px rgba(0,0,0,0.75) !important;
+}
+.nav-tabs{
+    border-bottom: 0 !important;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    border: 0 !important;
+}
+.nav-link{
+    color: #606062 !important;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+      color: #606062 !important;
+}
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover{
+    background: #fff !important;
+border: 0 !important !important;
+color: #606062 !important;
+}
+.nav-tabs .nav-link{
+    margin-bottom: -1px !important;
+    border: 0 !important;
+    border-top-left-radius: 0rem !important;
+    border-top-right-radius: 0rem !important;
+}
+h5{
+     font-size: 19px !important;
+    font-weight:bolder !important;
+    color: #606062 !important;
+    font-family: serif !important;
+padding-bottom: 15px !important;
+}
+.tab-content h5{
+    font-size: 19px !important;
+    font-weight:bolder !important;
+    color: #606062 !important;
+    font-family: serif !important;
+padding-bottom: 15px !important;
+}
+.tab-content h5:first-child{
+    margin-top: 30px !important;
+}
+.tab-content p{
+    font-size: 13.7px !important;
+    color: #606062 !important;
+    font-family: serif !important;
+    margin:0 0 25px !important;
+}
+.row4 {
+    margin-top: 35px !important;
+}
+
+.tab-pane p{
+    margin-top: 20px !important;
+}
+.thumbnail_image{
+width:100% !important;
+height: 100% !important;
+display: flex !important;
+justify-content: center !important;
+align-items: center !important;
+border: 1px solid rgba(0,0,0,.3) !important;
+
+}
+.row_img img{
+    object-fit: cover !important;
+    object-position: center !important;
+width:50% !important;
+height: 100% !important;
+
+}
+.links_p{
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+}
+.links_p a{
+    text-decoration: none !important;
+}
+
+/**** LAST BOTTOM SECTION ****/
+.row_last{
+    margin-top: 35px !important;
+    margin-bottom: 40px !important;
+}
+.row_last h6{
+font-size: 14px !important;
+text-align: left !important;
+}
+.last_item_main{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column !important;
+
+}
+.item_last1{
+    width: 100% !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+  
+}
+.item_last1 p{
+    font-size: 10px !important;
+}
+.item_last1_sub,.item_last2_sub,.item_last3_sub{
+padding-right: 10px !important;
+}
+.last_item_main a{
+    font-size: 13px !important;
+}
+
+.aliexpress,.amazon{
+display: flex !important;
+justify-content: space-between !important;
+flex-direction: row !important;
+text-align: center !important;
+}
+.aliexpress_item1 a,p,
+.aliexpress_item2 a,p{
+    text-decoration: none !important;
+    font-size: 12px !important;
+}
+.fa-star{
+    color: #007bff !important;
+    padding-left: 2px !important;
+}
+.last{
+    color: silver !important;
+}
